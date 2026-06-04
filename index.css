@@ -2508,6 +2508,8 @@ a {
   }
   .blogs-heading button {
     align-self: start;
+    width: 70%;
+    padding: 0px 15px;
   }
   .blogs-articles-div {
     margin-left: 20px;
