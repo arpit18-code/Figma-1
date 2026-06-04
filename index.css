@@ -12,7 +12,7 @@ body {
 }
 .nav1 {
   background-color: #010326;
-  padding: 10px 160px;
+  padding: 10px 20px;
   color: white;
   font-size: 14px;
 }
@@ -23,7 +23,8 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .nav-email-number-div {
   display: flex;
@@ -35,12 +36,14 @@ body {
   margin: 0 5px;
 }
 .nav-2 {
-  padding: 20px 160px;
+  padding: 20px 20px;
   border-bottom: 0.5px solid rgba(155, 155, 155, 1);
 }
 .nav-container-2 {
   display: flex;
   justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .navlinkButtonContainer {
   display: flex;
@@ -264,6 +267,7 @@ button {
   flex-direction: column;
 }
 .white-button {
+  font-size: 18px;
   background-color: white;
   color: #0f6dbf;
   border: 1px solid #0f6dbf;
@@ -1918,7 +1922,14 @@ a {
     margin-right: auto;
   }
   .blue-button-Email-offers {
-    width: 180px;
+    width: 141px;
+    height: 32px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Email-Offers-image-div {
+    top: 5px;
   }
   .client-name {
     font-size: 22px;
@@ -1933,6 +1944,18 @@ a {
   }
 }
 @media (max-width: 1600px) {
+  .client-content-container h2 {
+    font-size: 32px;
+  }
+  .client-content-container span {
+    font-size: 32px;
+  }
+  .client-top-svg-div {
+    max-width: 45px;
+  }
+  .client-svg-div {
+    max-width: 50px;
+  }
   .heroSectionMainDiv {
     margin: 0 auto;
   }
@@ -1979,6 +2002,12 @@ a {
   }
 }
 @media (max-width: 600px) {
+  .client-content-container h2 {
+    font-size: 24px;
+  }
+  .client-content-container span {
+    font-size: 24px;
+  }
   .navbar-socials {
     flex-wrap: wrap;
   }
@@ -2020,6 +2049,12 @@ a {
   }
 }
 @media (max-width: 920px) {
+  .blogs-heading h4 {
+    font-size: 20px !important;
+  }
+  .blogs-heading h2 {
+    font-size: 20px !important;
+  }
   .Efficent-Reliability {
     flex-direction: column;
   }
@@ -2052,6 +2087,9 @@ a {
   }
   .heading-svg {
     display: none;
+  }
+  .ExperienceSectionDiv {
+    padding-left: 50px;
   }
   .blogs-heading-div {
     width: 100%;
@@ -2099,6 +2137,9 @@ a {
   .inspection-requestDiv {
     flex-direction: column;
   }
+  .inspection-requestDiv div {
+    width: 100%;
+  }
   .client-image-2-div {
     max-width: 250px;
   }
@@ -2123,6 +2164,12 @@ a {
 @media (max-width: 1400px) {
   .latest-project-div-1 h2 {
     font-size: 32px;
+  }
+  .inspection-requestDiv div {
+    flex-direction: column;
+  }
+  .inspection-requestDiv input {
+    width: 100%;
   }
 }
 
@@ -2175,14 +2222,20 @@ a {
   .FAQ-section {
     width: 80%;
   }
-  .inspection-requestDiv div {
-    flex-direction: column;
-  }
   .inspection-requestDiv input {
     width: 100%;
   }
   .ExperienceSectionDiv {
     flex-direction: column;
+  }
+  .main-heading-3 {
+    font-size: 35px;
+  }
+  .heading-3-2 {
+    font-size: 35px;
+  }
+  .ExpierenceContainer {
+    gap: 30px;
   }
   .ExperienceSectionDiv1 {
     width: 80%;
@@ -2194,6 +2247,7 @@ a {
   }
   .inspection-requestDiv {
     /* align-items: start; */
+    padding: 25px 30px;
     justify-content: start;
   }
   .project-enquiry-section h2 {
@@ -2230,6 +2284,10 @@ a {
   }
 }
 @media (max-width: 1200px) {
+  .client-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .navlinkButtonContainer {
     display: none;
   }
@@ -2240,6 +2298,9 @@ a {
     left: 60px;
   }
   .nav-2 {
+    padding: 10px 80px;
+  }
+  .nav1 {
     padding: 10px 80px;
   }
   .carousel-bigger-device {
@@ -2369,6 +2430,39 @@ a {
 }
 
 @media (max-width: 540px) {
+  .Overlay-Offers-Content p {
+    font-size: 13px;
+  }
+  .Email-Offers input {
+    font-size: 13px;
+  }
+  .FAQ-section h3 {
+    font-size: 24px !important;
+  }
+  .socialTextHeading-2 {
+    font-size: 22px;
+  }
+  .socialTextHeading-1 {
+    font-size: 22px;
+  }
+  .client-name {
+    font-size: 16px;
+  }
+  .client-company {
+    font-size: 16px;
+  }
+  .client-section {
+    padding-top: 20px;
+  }
+  .client-Image-div {
+    max-width: 60px;
+  }
+  .client-container-div-2 p {
+    font-size: 14px;
+  }
+  .client-container-div-2 {
+    gap: 30px;
+  }
   .nav-2 {
     padding: 10px 20px;
   }
@@ -2406,9 +2500,9 @@ a {
   .arrow-image {
     align-self: flex-end;
   }
-  .blogs-heading {
+  /* .blogs-heading {
     flex-direction: column;
-  }
+  } */
   .heading-image-outer-div-blog {
     align-self: start;
   }
@@ -2432,12 +2526,7 @@ a {
     height: 35px;
     width: 35px;
   }
-  .client-content-container h2 {
-    font-size: 32px;
-  }
-  .client-content-container span {
-    font-size: 32px;
-  }
+
   .client-top-svg-div {
     height: 40px;
     width: 40px;
@@ -2449,7 +2538,10 @@ a {
     gap: 0px;
   }
   .FAQ-content-div h4 {
-    font-size: 24px;
+    font-size: 18px;
+  }
+  .FAQ-content-div p {
+    font-size: 12px;
   }
   .heading-svg {
     width: 40px;
@@ -2457,10 +2549,10 @@ a {
     left: -32px;
   }
   .main-heading-3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .heading-3-2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .main-heading-1 {
     font-size: 32px !important;
@@ -2469,7 +2561,7 @@ a {
     font-size: 32px !important;
   }
   .expHeading {
-    font-size: 28px;
+    font-size: 25px;
     gap: 10px;
   }
   .expHeading img {
@@ -2486,7 +2578,7 @@ a {
     font-size: 26px;
   }
   .Email-Offers input {
-    width: 180px;
+    width: 146px;
   }
   .FAQ-answer-div {
     margin-left: 10px;
@@ -2550,6 +2642,9 @@ a {
   }
 }
 @media (max-width: 400px) {
+  .blogs-heading {
+    flex-direction: column;
+  }
   .FAQ-section h3 {
     font-size: 24px;
   }
@@ -2584,7 +2679,7 @@ a {
     max-width: 140px;
   }
   .Email-Offers-image-div {
-    top: 0px;
+    top: -5px;
   }
   .project-enquiry-content-div {
     padding-left: 10px;
@@ -2618,6 +2713,9 @@ a {
   }
 }
 @media (max-width: 1000px) {
+  .FAQ-section h3 {
+    font-size: 32px;
+  }
   .main-heading-2 {
     font-size: 48px;
   }
