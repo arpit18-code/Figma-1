@@ -278,6 +278,7 @@ button {
   font-family: "PT Sans";
 }
 .white-button-1 {
+  font-size: 18px;
   background-color: white;
   color: #0f6dbf;
   border: 2px solid #0f6dbf;
